@@ -1,6 +1,6 @@
-export const RECEIEVE_USERS = 'RECEIVE_USERS'
+import RECEIVE_USERS from './types'
 
 export const receiveUsers = users => ({
-    type: RECEIEVE_USERS,
+    type: RECEIVE_USERS,
     users
 })

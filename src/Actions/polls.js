@@ -1,6 +1,6 @@
-export const RECIEVE_POLLS = 'RECIEVE_POLLS'
+import RECEIVE_POLLS from './types'
 
 export const receivePolls = polls => ({
-        type: RECIEVE_POLLS,
+        type: RECEIVE_POLLS,
         polls
 })
