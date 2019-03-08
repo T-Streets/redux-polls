@@ -1,5 +1,5 @@
 import { getInitialData } from '../utils/api'
-import { receivePolls } from './users'
+import { receivePolls } from './polls'
 import { receiveUsers } from './users'
 import { setAuthUser } from './authedUser'
 
